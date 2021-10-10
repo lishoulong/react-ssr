@@ -53,6 +53,7 @@ function htmlTemplate( reactDom, reduxState, helmetData ) {
         <html>
         <head>
             <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
             ${ helmetData.title.toString( ) }
             ${ helmetData.meta.toString( ) }
             <title>React SSR</title>

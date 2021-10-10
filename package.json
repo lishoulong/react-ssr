@@ -13,7 +13,6 @@
     "precommit": "eslint src --quiet"
   },
   "dependencies": {
-    "isomorphic-fetch": "^2.2.1",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-helmet": "^5.2.0",
@@ -34,7 +33,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.3.13",
     "babel-register": "^6.26.0",
-    "bundlesize": "^0.16.0",
+    "bundlesize": "^0.18.1",
     "css-loader": "^3.0.0",
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",

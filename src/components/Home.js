@@ -17,7 +17,7 @@ class Home extends React.Component {
                 <h2>F1 2018 Season Calendar</h2>
                 <ul>
                     { circuits.map( ( { circuitId, circuitName, Location } ) => (
-                        <li key={ circuitId } >{ circuitName } - { Location.locality }, { Location.country }</li>
+                        <li key={ circuitId } >{ circuitName } - { Location }</li>
                     ) ) }
                 </ul>
             </div>
